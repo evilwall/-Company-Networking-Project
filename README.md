@@ -113,7 +113,7 @@ show ip interface brief
 - Ping mellan VLAN fungerar via router-on-a-stick
 - Trunk bär VLAN 10,20,30
 
-## Subnetteringstabell (från videons dokument)
+## Subnetteringstabell
 
 | Subnet nr | Network ID     | Broadcast ID   | Host Range                  | Mask               | Block Size |
 |-----------|----------------|----------------|-----------------------------|--------------------|------------|
