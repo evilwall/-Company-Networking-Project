@@ -112,3 +112,11 @@ show ip interface brief
 - Klienter i respektive VLAN får adresser via DHCP enligt planen
 - Ping mellan VLAN fungerar via router-on-a-stick
 - Trunk bär VLAN 10,20,30
+
+## Subnetteringstabell (från videons dokument)
+
+| Subnet nr | Network ID     | Broadcast ID   | Host Range                  | Mask               | Block Size |
+|-----------|----------------|----------------|-----------------------------|--------------------|------------|
+| 1         | 192.168.1.0    | 192.168.1.63   | 192.168.1.1 – 192.168.1.62   | 255.255.255.192    | 64         |
+| 2         | 192.168.1.64   | 192.168.1.127  | 192.168.1.65 – 192.168.1.126 | 255.255.255.192    | 64         |
+| 3         | 192.168.1.128  | 192.168.1.191  | 192.168.1.129 – 192.168.1.190| 255.255.255.192    | 64         |
